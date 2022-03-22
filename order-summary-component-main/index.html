@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-image: url(file:///C:/Users/Dell/Desktop/order-summary-component-main/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+      }
+      .parent {
+        margin-top: 10%;
+        margin-left: 40%;
+        border-radius: 5px;
+        border-color: black;
+        width: 400px;
+        height: 210px;
+        background-color: blue;
+        background-image: url(file:///C:/Users/Dell/Desktop/order-summary-component-main/images/illustration-hero.svg);
+      }
+      .child {
+        margin-left: 40%;
+        border-radius: 5px;
+        border-color: black;
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        padding: 26px;
+      }
+      h1 {
+        text-align: center;
+      }
+      p.first {
+        font-size: medium;
+        text-align: center;
+        color: grey;
+      }
+      p.second {
+        width: 80%;
+        height: 50px;
+        border: 0px solid;
+        border-radius: 5px;
+
+        background-color: hsl(225, 100%, 98%);
+        padding: 15px;
+      }
+      span {
+        color: grey;
+      }
+      .secchild {
+        width: 80%;
+        border: 1px solid black;
+        height: 20px;
+        border-radius: 5px;
+        background-color: hsl(245, 75%, 52%);
+        text-align: center;
+        padding: 14px;
+        font-size: large;
+        color: white;
+      }
+      .last {
+        border: 1px solid white;
+        width: 80%;
+        height: 20px;
+        text-align: center;
+        color: gray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent"></div>
+    <div class="child">
+      <h1>Order Summary</h1>
+      <p class="first">
+        You can now listen to million of songs,audiobooks,and podcasts on any
+        device anywhere you like!
+      </p>
+      <p class="second">
+        <img
+          src="file:///C:/Users/Dell/Desktop/order-summary-component-main/images/icon-music.svg"
+          align="left"
+          height="40"
+        />
+        <b>Annual plane</b>
+        <br />
+        <a href="" align="right">change</a>
+        <br />
+        <span>$59.99/year</span>
+      </p>
+      <div class="secchild">Proceed to payment</div>
+      <div class="last">Cancel Order</div>
+    </div>
+  </body>
+</html>
